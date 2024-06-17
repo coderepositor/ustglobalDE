@@ -24,6 +24,8 @@ git remote -v - It will provide the list of remote repository links with local r
 git remote add origin <git repository master> -> Creates the link between the local repository and the remote repository
 git push -u origin master -> pushes the local repository code to remote repository
 git pull origin master -> Pull/fetches the code repository from the remote repository to local repository
+git clone <remote repository> -> It will download the entire repository from github
+
 
 
 
