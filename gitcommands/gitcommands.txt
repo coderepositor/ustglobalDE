@@ -16,6 +16,10 @@ git rm --cached -f - To remove forcefully the files from the staging environment
 git diff - It will give you the difference between the staging file (in case the  commited version for the file don
 t exists) vs working file
 git log - Shows all the commited version
+git show - shows the changes done in the files with respect to previous commited version
+git diff <commit id> - It will show the difference between the current version vs the <commit id> version
+git reset <commitid> - It will  do the soft reset
+git reset <commitid> - It will do the hard reset
 
 
 
