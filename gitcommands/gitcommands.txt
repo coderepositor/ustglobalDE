@@ -11,6 +11,13 @@ git add *  - Adds all the file from working directory to the staging
 git rm --cached <filename> or * - It removes the file from the staging
 git rm --cached * -r - In case there is a folder -r is used to recursively remove the  files from subfolder from staging
 git restore --staged <filename> - To restore it to the working directory
+git add -A - To add all files in the staging directory
+git rm --cached -f - To remove forcefully the files from the staging environment. It happens if there is a difference between the files in staging vs working
+git diff - It will give you the difference between the staging file (in case the  commited version for the file don
+t exists) vs working file
+git log - Shows all the commited version
+
+
 
 
 
