@@ -1,0 +1,34 @@
+git  --version - It will display the current version of the git installed
+git init - Initialized the empty git repository or reinitialized existing git repository
+git config --list - It display all the git configuration set parameters
+git config --get <parameter-name> - It displays the value of give parameter-name
+git config --global user.email "ilearniexcel@gmail.com"
+git config --global user.name "coderepositor"
+git status - It will show the status of your files in the given git repository
+git add <filename> - It will add only specific file to the staging
+git commit -m "initial version" - It will create the version with the given message
+git add *  - Adds all the file from working directory to the staging
+git rm --cached <filename> or * - It removes the file from the staging
+git rm --cached * -r - In case there is a folder -r is used to recursively remove the  files from subfolder from staging
+git restore --staged <filename> - To restore it to the working directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
