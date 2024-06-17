@@ -20,6 +20,20 @@ git show - shows the changes done in the files with respect to previous commited
 git diff <commit id> - It will show the difference between the current version vs the <commit id> version
 git reset <commitid> - It will  do the soft reset
 git reset <commitid> - It will do the hard reset
+git remote -v - It will provide the list of remote repository links with local repository
+git remote add origin <git repository master> -> Creates the link between the local repository and the remote repository
+git push -u origin master -> pushes the local repository code to remote repository
+git pull origin master -> Pull/fetches the code repository from the remote repository to local repository
+
+
+
+
+
+
+
+
+
+
 
 
 
